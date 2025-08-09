@@ -1,0 +1,15 @@
+[theme]
+# Force light theme
+primaryColor = "#007bff"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f9fa"
+textColor = "#000000"
+base = "light"
+
+[server]
+headless = false
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
