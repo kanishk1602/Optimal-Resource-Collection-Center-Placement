@@ -7,7 +7,7 @@
       "Multi-constraint optimization",
       "Spatial clustering for geographic data"
     ],
-    "timestamp": "2025-08-12T15:22:03.257944",
+    "timestamp": "2025-08-12T15:24:40.866960",
     "total_scenarios": 1
   },
   "scenarios": [
@@ -22,23 +22,15 @@
         "max_slope": 25
       },
       "num_centers_found": 3,
-      "total_cost": 139106000.0,
+      "total_cost": 133517000.0,
       "centers": [
         {
-          "id": 15,
-          "lat": 26.0909,
-          "lon": 75.1405,
-          "land_type": "forest",
-          "slope": 22.3078,
-          "elevation": 446.359
-        },
-        {
-          "id": 14,
-          "lat": 26.1062,
-          "lon": 75.1784,
+          "id": 20,
+          "lat": 26.1456,
+          "lon": 75.4934,
           "land_type": "barren",
-          "slope": 18.0195,
-          "elevation": 486.518
+          "slope": 10.8556,
+          "elevation": 217.857
         },
         {
           "id": 48,
@@ -47,6 +39,14 @@
           "land_type": "barren",
           "slope": 10.3567,
           "elevation": 242.641
+        },
+        {
+          "id": 3,
+          "lat": 26.366,
+          "lon": 75.4697,
+          "land_type": "agricultural",
+          "slope": 18.2127,
+          "elevation": 497.845
         }
       ],
       "success": true
