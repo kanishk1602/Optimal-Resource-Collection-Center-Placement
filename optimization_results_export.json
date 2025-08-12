@@ -7,7 +7,7 @@
       "Multi-constraint optimization",
       "Spatial clustering for geographic data"
     ],
-    "timestamp": "2025-08-12T14:17:18.401336",
+    "timestamp": "2025-08-12T15:01:33.936245",
     "total_scenarios": 3
   },
   "scenarios": [
@@ -25,20 +25,20 @@
       "total_cost": 133360000.0,
       "centers": [
         {
-          "id": 15,
-          "lat": 26.0909,
-          "lon": 75.1405,
-          "land_type": "forest",
-          "slope": 22.3078,
-          "elevation": 446.359
-        },
-        {
           "id": 47,
           "lat": 26.1559,
           "lon": 75.2614,
           "land_type": "forest",
           "slope": 3.41515,
           "elevation": 360.19
+        },
+        {
+          "id": 15,
+          "lat": 26.0909,
+          "lon": 75.1405,
+          "land_type": "forest",
+          "slope": 22.3078,
+          "elevation": 446.359
         },
         {
           "id": 3,
@@ -65,20 +65,20 @@
       "total_cost": 140234000.0,
       "centers": [
         {
-          "id": 48,
-          "lat": 26.26,
-          "lon": 75.2138,
-          "land_type": "barren",
-          "slope": 10.3567,
-          "elevation": 242.641
-        },
-        {
           "id": 9,
           "lat": 26.3006,
           "lon": 75.0226,
           "land_type": "agricultural",
           "slope": 3.12674,
           "elevation": 472.283
+        },
+        {
+          "id": 48,
+          "lat": 26.26,
+          "lon": 75.2138,
+          "land_type": "barren",
+          "slope": 10.3567,
+          "elevation": 242.641
         },
         {
           "id": 20,
@@ -105,22 +105,6 @@
       "total_cost": 113095000.0,
       "centers": [
         {
-          "id": 3,
-          "lat": 26.366,
-          "lon": 75.4697,
-          "land_type": "agricultural",
-          "slope": 18.2127,
-          "elevation": 497.845
-        },
-        {
-          "id": 20,
-          "lat": 26.1456,
-          "lon": 75.4934,
-          "land_type": "barren",
-          "slope": 10.8556,
-          "elevation": 217.857
-        },
-        {
           "id": 48,
           "lat": 26.26,
           "lon": 75.2138,
@@ -135,6 +119,22 @@
           "land_type": "barren",
           "slope": 18.0195,
           "elevation": 486.518
+        },
+        {
+          "id": 3,
+          "lat": 26.366,
+          "lon": 75.4697,
+          "land_type": "agricultural",
+          "slope": 18.2127,
+          "elevation": 497.845
+        },
+        {
+          "id": 20,
+          "lat": 26.1456,
+          "lon": 75.4934,
+          "land_type": "barren",
+          "slope": 10.8556,
+          "elevation": 217.857
         }
       ],
       "success": true
