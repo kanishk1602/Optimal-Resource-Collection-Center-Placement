@@ -7,31 +7,23 @@
       "Multi-constraint optimization",
       "Spatial clustering for geographic data"
     ],
-    "timestamp": "2025-08-12T15:01:33.936245",
-    "total_scenarios": 3
+    "timestamp": "2025-08-12T15:22:03.257944",
+    "total_scenarios": 1
   },
   "scenarios": [
     {
-      "name": "Scenario 1: Basic Optimization",
+      "name": "Scenario: Constraints from File",
       "parameters": {
-        "name": "Scenario 1: Basic Optimization",
-        "description": "Standard constraints excluding wetlands",
+        "name": "Scenario: Constraints from File",
+        "description": "Optimization using constraints.json",
         "num_centers": 3,
-        "min_dist": 2.0,
+        "min_dist": 2,
         "exclude_types": "wetland",
-        "max_slope": 25.0
+        "max_slope": 25
       },
       "num_centers_found": 3,
-      "total_cost": 133360000.0,
+      "total_cost": 139106000.0,
       "centers": [
-        {
-          "id": 47,
-          "lat": 26.1559,
-          "lon": 75.2614,
-          "land_type": "forest",
-          "slope": 3.41515,
-          "elevation": 360.19
-        },
         {
           "id": 15,
           "lat": 26.0909,
@@ -39,78 +31,6 @@
           "land_type": "forest",
           "slope": 22.3078,
           "elevation": 446.359
-        },
-        {
-          "id": 3,
-          "lat": 26.366,
-          "lon": 75.4697,
-          "land_type": "agricultural",
-          "slope": 18.2127,
-          "elevation": 497.845
-        }
-      ],
-      "success": true
-    },
-    {
-      "name": "Scenario 2: Strict Terrain Constraints",
-      "parameters": {
-        "name": "Scenario 2: Strict Terrain Constraints",
-        "description": "Low slope limit, exclude multiple land types",
-        "num_centers": 3,
-        "min_dist": 2.0,
-        "exclude_types": "wetland,forest",
-        "max_slope": 15.0
-      },
-      "num_centers_found": 3,
-      "total_cost": 140234000.0,
-      "centers": [
-        {
-          "id": 9,
-          "lat": 26.3006,
-          "lon": 75.0226,
-          "land_type": "agricultural",
-          "slope": 3.12674,
-          "elevation": 472.283
-        },
-        {
-          "id": 48,
-          "lat": 26.26,
-          "lon": 75.2138,
-          "land_type": "barren",
-          "slope": 10.3567,
-          "elevation": 242.641
-        },
-        {
-          "id": 20,
-          "lat": 26.1456,
-          "lon": 75.4934,
-          "land_type": "barren",
-          "slope": 10.8556,
-          "elevation": 217.857
-        }
-      ],
-      "success": true
-    },
-    {
-      "name": "Scenario 3: More Centers, Relaxed Distance",
-      "parameters": {
-        "name": "Scenario 3: More Centers, Relaxed Distance",
-        "description": "Higher density of centers with relaxed spacing",
-        "num_centers": 4,
-        "min_dist": 1.0,
-        "exclude_types": "wetland",
-        "max_slope": 20.0
-      },
-      "num_centers_found": 4,
-      "total_cost": 113095000.0,
-      "centers": [
-        {
-          "id": 48,
-          "lat": 26.26,
-          "lon": 75.2138,
-          "land_type": "barren",
-          "slope": 10.3567,
-          "elevation": 242.641
         },
         {
           "id": 14,
@@ -121,20 +41,12 @@
           "elevation": 486.518
         },
         {
-          "id": 3,
-          "lat": 26.366,
-          "lon": 75.4697,
-          "land_type": "agricultural",
-          "slope": 18.2127,
-          "elevation": 497.845
-        },
-        {
-          "id": 20,
-          "lat": 26.1456,
-          "lon": 75.4934,
+          "id": 48,
+          "lat": 26.26,
+          "lon": 75.2138,
           "land_type": "barren",
-          "slope": 10.8556,
-          "elevation": 217.857
+          "slope": 10.3567,
+          "elevation": 242.641
         }
       ],
       "success": true
